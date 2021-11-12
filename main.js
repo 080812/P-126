@@ -68,6 +68,6 @@ function gotposes(results) {
         RWY = results[0].pose.rightWrist.y
 
         scoreLW = results[0].pose.keypoints[9].score
-        score = results[0].pose.keypoints[10].score
+        scoreRW= results[0].pose.keypoints[10].score
     }
 }
